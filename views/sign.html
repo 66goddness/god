@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+	<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Mail</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="/styles/style3.css">
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,600' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Mr+Dafoe' rel='stylesheet' type='text/css'>
+		<script src="/javascripts/jq3.6.0.js"></script>
+	</head>
+	<body>
+		<div class="wrap">
+			<div class="content">
+				<div class="logo">
+					<a href="sign.html"><h1>fotos</h1></a>
+				</div>
+				<p>Be ready, we are joining soon --Real time wonderful &#33;</p>
+			<form id="contact-form" method="POST"  action="/sign">
+				<div>
+					<label for="add">用户名</label>
+					<input type="text" name="siger_name" id="address"  placeholder="请输入name">
+					<button type="button" id="btn_add">Verification</button>
+					<p class="address" id="p_address"></p>
+				</div>
+				
+				<div>
+					<label for="add">密码</label>
+					<input type="text" name="siger_pass" id="address"  placeholder="请输入password">
+					<button type="button" id="btn_add">Verification</button>
+					<p class="address" id="p_address"></p>
+				</div>
+				<div>
+					<label for="add" >地区</label>
+					<input type="text" name="place" id="address" placeholder="请输入place">
+					<button type="button" id="btn_add">Verification</button>
+					<p class="address" id="p_address"></p>
+				</div>
+				
+			<!-- <div class="form"> -->
+					<!-- <form id="contact-form" action="#" method="post"> -->
+						<!-- <input placeholder="Please enter your email address" type="email" tabindex="2" required> -->
+						<input type="submit" name="index" id="contact-submit" value="Subscribe">
+			</form>
+
+				</div>
+				<div class="footer">
+				<div class="social-icons">
+					   <a href="#"><span class="simptip-position-bottom simptip-movable" data-tooltip="Facebook"><img src="\images\img2\f.png"></span></a>
+				       <a href="#"> <span class="simptip-position-bottom simptip-movable" data-tooltip="Rss"><img src="\images\img2\r.png"></span></a>
+				       <a href="#">  <span class="simptip-position-bottom simptip-movable" data-tooltip="Twitter"><img src="\images\img2\t1.png"></span></a>
+					<div class="clear"> </div>
+				</div>
+				</div>
+			</div>
+		</div>
+<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
+
+<!-- <script>
+	  $("#contact-submit").click(function(){
+        $.ajax({
+            type:"post",
+            url:"/sign",
+            data:{"name":$("#name").val(),"password":$("#password").val()},
+            success:function(data){
+                if(data.status==1){
+                    alert("注册成功！");
+                    window.location="/"
+                }else{
+                    alert("注册失败！");
+                }
+            }
+        })
+    })
+
+</script> -->
+</body>
+</html>
