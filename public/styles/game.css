@@ -1,0 +1,119 @@
+#clearDiv{
+    margin: 120px;
+}
+a{
+    text-decoration: none;
+    color:rgb(85, 145, 214) ;
+}
+.a{
+   float: left;
+   
+    
+}
+.a input:focus{
+    outline: 1px solid blue;
+    border-radius: 4px;
+}
+.e a{
+    border: 10px solid rgb(251, 252, 253);
+    border-radius: 10px;
+    background-color:rgb(250, 251, 253) ;
+}
+.b{
+    float: left;
+   
+}
+
+.c{
+    float: left;
+}
+
+.d{
+    border: 6px solid rgb(85, 145, 214);
+    border-radius: 4px;
+    background-color: rgb(85, 145, 214);
+    margin: -3px;
+
+}
+
+#f{
+    border: 10px solid rgb(85, 145, 214);
+border-radius: 3px;
+background-color:rgb(85, 145, 214) ;
+position: relative;
+    top: 1px;
+}
+.g{
+    border-top:solid 2px black;
+    border-bottom:solid 2px black;
+    margin: 89px;
+    height: 72px;
+    /* position: relative;
+    top: -261px; */
+}
+table {
+    border-collapse: collapse;
+    text-align: center;
+    width: 81%;
+    height: 53px;
+}
+.tb{
+padding-left: 90px;
+    
+}
+table, td, th {
+    border: 1px solid rgb(226, 224, 224);
+}
+
+.h{
+    border: 10px solid rgb(85, 145, 214);
+border-radius: 3px;
+background-color:rgb(85, 145, 214) ;
+}
+.i{
+    border: 10px solid rgb(72, 206, 55);
+border-radius: 3px;
+background-color:rgb(72, 206, 55) ;
+}
+.j{
+    border: 10px solid rgb(206, 95, 173);
+border-radius: 3px;
+background-color:rgb(206, 95, 173);
+}
+.k{
+    border: 10px solid rgb(243, 179, 84);
+border-radius: 3px;
+background-color:rgb(243, 179, 84) ;
+}
+.l{
+    float: right;
+}
+/* #tj1 {
+    display:none;
+    background-color:red;
+    width: 600px;
+    height: 500px;
+    position:fixed;
+    top:50px;
+    left: 484px;;
+    bottom:0;
+    right:0;
+   
+} */
+#tj1{
+    display: none;
+   
+    width: 600px;
+    height: 500px;
+    position: fixed;
+    top: 50px;
+    left: 484px;
+    bottom: 0;
+    right: 0;
+}
+/* #tj1 ul li{
+    list-style: none;  
+} */
+#tj1 ul li {
+    list-style:none;
+}
