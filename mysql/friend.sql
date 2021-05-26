@@ -1,9 +1,0 @@
-INSERT INTO `friend` VALUES ('欢欢', '', '女', '南昌', '', '', '', 25);
-INSERT INTO `friend` VALUES ('欢欢', '', '', '南昌', '', '', '', 26);
-INSERT INTO `friend` VALUES ('欢欢', '', '', '南昌', '', '', '', 27);
-INSERT INTO `friend` VALUES ('欢欢', '12', '', '南昌', '', '', '', 28);
-INSERT INTO `friend` VALUES ('欢欢', '12', '', '南昌', '', '', '', 29);
-INSERT INTO `friend` VALUES ('欢欢', '', '', '南昌', '', '', '', 30);
-INSERT INTO `friend` VALUES ('欢欢', '', '', '南昌', '', '', '', 31);
-INSERT INTO `friend` VALUES ('欢欢', '12', '女', '南昌', '爱而不得', '无', '无', 32);
-INSERT INTO `friend` VALUES ('欢欢', '12', '女', '南昌', '爱而不得', '无', '无', 33);
