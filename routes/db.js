@@ -1,28 +1,23 @@
-const mysql = require('mysql');
+var mysql = require('mysql');
+var db ={};
 
-var mysqlConnect = {};
 
-var pool = mysql.createPool({
-    connectLimit:10,
-    host: "localhost",
-    port: "3306",
-    user: "root",
-    password: "666666",
-    database: "maga"
-});
+db.queryParam=function(sql,param,callback){
+    var con =mysql.createConnection({
+         host: "localhost",
+        port: "3306",
+        user: "root",
+        password: "666666",
+        database: "maga"
+    });
+    con.query(sql,param,(err,results)=>{
+        if(err){
+            callback(err,results); 
+            return;
+        }
+       callback(null,rows);
+    });
+    con.end();
+}
 
-mysqlConnect.sql=function (query,callback) {
-    if(!query){
-        callback();
-        return;
-    }
-    pool.query(query,function (err,rows,fields) {
-       if(err){
-           callback(err,null);
-           return;
-       }
-       callback(null,rows);
-    });
-};
-
-module.exports = mysqlConnect;
+module.exports=db;

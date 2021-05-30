@@ -8,9 +8,7 @@
 </head>
 <body>
 
-    <div class="cs2">
-        <img src="\images\img\bg-img\33.jpg" id="logo2">
-    </div>
+   
 	<a href="/index" target="_blank" id="in">Personal Record Information</a>
 	<!-- Preloader -->
     <div class="preloader d-flex align-items-center justify-content-center">
@@ -99,34 +97,57 @@
 
                 <div class="col-12 col-lg-8">
                     <div class="contact-content mb-100">
-
+                             
                         <!-- Logo -->
-                        <a href="#" class="d-block mb-50"><img src="img/core-img/logo.png" alt=""></a>
+                        
 
                         <!-- Single Contact Info -->
+                        <%   for(var o of data){   %>
                         <div class="single-contact-info d-flex align-items-center">
                             <div class="icon mr-15">
-                                <img src="img/core-img/map-pin.png" alt="">
+                                <img src="<%= o.img%>" alt="">
                             </div>
-                            <p>民间新闻show</p>
-                            
-                        </div>
-
+                            <table CELLSPACING ="30" class="">
+                              <thead>
+                                  <tr>
+                                      <th>作者</th>
+                                      <th>年龄</th>
+                                      <th>性别</th>
+                                      <th>城市</th>
+                                      <th>文章名</th>
+                                      <th>其他</th>
+                                      <th>备注</th>
+                                  </tr>
+                              </thead>
+                              <tbody>
+                                  <tr>
+                           <td><p><%= o.friendname%></p></td> 
+                            <td><p><%= o.old%></p></td>
+                            <td><p><%= o.sex%></p></td>
+                            <td><p><%= o.city%></p></td>
+                            <td><p><%= o.bookname%></p></td>
+                            <td><p><%= o.other%></p></td>
+                            <td><p><%= o.remark%></p></td>
+                        </tr>
+                              </tbody>
+                            </table>
+                         </div>
+                        <%   }   %>
                         <!-- Single Contact Info -->
-                        <div class="single-contact-info d-flex align-items-center">
+                        <!-- <div class="single-contact-info d-flex align-items-center">
                             <div class="icon mr-15">
                                 <img src="img/core-img/smartphone.png" alt="">
                             </div>
                             <p>娱乐新闻show</p>
-                        </div>
+                        </div> -->
 
                         <!-- Single Contact Info -->
-                        <div class="single-contact-info d-flex align-items-center">
+                        <!-- <div class="single-contact-info d-flex align-items-center">
                             <div class="icon mr-15">
                                 <img src="img/core-img/paper-plane.png" alt="">
                             </div>
                             <p>国家新闻show</p>
-                        </div>
+                        </div> -->
 
                         <!-- Contact Social Info -->
                         <div class="contact-social-info mt-50 mb-70">
@@ -183,22 +204,14 @@
                     </div>
 
                     <!-- Add Widget -->
-                    <div class="single-widget-area add-widget mb-30">
-                        <a href="#">
-                                <img src="\images\img\bg-img\add3.png" alt="">
-                            </a>
-                    </div>
+                    
 
                     <!-- Latest News Widget -->
                     <div class="single-widget-area news-widget mb-30">
                         <h4>Latest News</h4>
 
                         <!-- Single News Area -->
-                        <div class="single-blog-post d-flex style-4 mb-30">
-                            <!-- Blog Thumbnail -->
-                            <div class="blog-thumbnail">
-                                <a href="#"><img src="\images\img\bg-img\16.jpg" alt=""></a>
-                            </div>
+                       
 
                             <!-- Blog Content -->
                             <div class="blog-content">
@@ -252,10 +265,7 @@
                         <!-- Single News Area -->
                         <div class="single-blog-post d-flex style-4 mb-30">
                             <!-- Blog Thumbnail -->
-                            <div class="blog-thumbnail">
-                                <a href="#"><img src="img/bg-img/20.jpg" alt=""></a>
-                            </div>
-
+                           
                             <!-- Blog Content -->
                             <div class="blog-content">
                                 <span class="post-date">June 20, 2018</span>
@@ -273,9 +283,7 @@
     <!-- ##### Footer Area Start ##### -->
     <footer class="footer-area">
         <!-- Footer Logo -->
-        <div class="footer-logo mb-100">
-            <a href="index.html"><img src="img/core-img/logo.png" alt=""></a>
-        </div>
+       
         <!-- Footer Content -->
         <div class="container">
             <div class="row">

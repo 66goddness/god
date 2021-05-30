@@ -34,12 +34,20 @@ router.post('/catagory',(req,res) =>{
     
 
 
-router.get('/register',(req,res)=>{
-    res.render('register');
-});
-router.post('/register',(req,res)=>{
-    res.render('send');
-})
+// router.get('/register',(req,res)=>{
+//     res.render('register');
+// });
+
+
+// router.post('/register',(req,res)=>{
+//     res.render('send');
+// });
+
+// router.get('/register',function(req,res,next){
+//     db.query("select * from friend",(err,result)=>{
+//         res.render('register',{data:result});
+//     });
+// });
 
 
 

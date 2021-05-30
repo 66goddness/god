@@ -30,7 +30,7 @@ h6 {
 
 p {
   font-family: "Raleway", sans-serif;
-  color: #858585;
+  color: #050a128a;
   font-size: 15px;
   line-height: 2;
   font-weight: 400; }
@@ -55,11 +55,10 @@ ol {
     list-style: none; }
 
 img {
-  height: auto;
-    max-width: 37%;
-    position: relative;
-    left: 780px;
-    top: 259px; }
+  height: 137px;
+    left: -101px;
+    top: 23px;
+    width: 624px; }
 
 /* :: 3.1.0 Spacing */
 .mt-15 {
@@ -1323,7 +1322,7 @@ img {
       color: #ef1b48; }
   .contact-content .single-contact-info {
     position: relative;
-    margin-bottom: 20px; }
+    left: 346px; }
     .contact-content .single-contact-info:last-child {
       margin-bottom: 0; }
     .contact-content .single-contact-info p {
